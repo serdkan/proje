@@ -5,7 +5,7 @@ def tusabas(event):
     print ("basildi",repr(event.char))
 def tiklanma(event):
     frame.focus_set()
-    print("Mouse Tıklan",event.x,event.y)
+    print("Mouse Tıklandı",event.x,event.y)
 frame = Frame(pencere,width=100,height=100)
 frame.bind("<Key>",tusabas)
 frame.bind("<Button-1>",tiklanma)
